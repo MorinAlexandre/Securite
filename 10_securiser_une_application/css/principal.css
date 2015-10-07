@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+    color: #555555;
+    font-size: 14px;
+}
+
+a {
+    color: #555555; 
+}
+
+#menu a {
+	color: #C1D100;
+}
+
+#menu {
+    background-color: #393939;
+    color: #C1D100;
+    height: 30px;
+    padding-left: 15px;
+}
+
+#menu .title {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+#menu li {
+    display: inline;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #C1D100;
+}
+
+#menu li#menu_name {
+    float: right;
+}
+
+#contenu {
+    padding: 10px;  
+}
+
+#contenu ul {
+    margin-left: 10px;	
+}
+
+table {
+	width: 100%;
+}
+
+form div.element label {
+	width: 150px;
+	float: left;
+}
+
+form div.element textarea {
+	width: 300px;
+	height: 200px;
+}
+
+.erreur {
+	color: #FF0000;
+    margin-bottom: 20px;
+}
+
+.enregistrement {
+	color: #C1D100;
+    margin-bottom: 20px;
+}
+
+.action {
+	text-align: center;
+}
