@@ -6,6 +6,8 @@ require 'include/connexion.php';
  * Vérification des paramètres pour l'identification
  * et identification si tout est conforme
  */
+ 
+ /*Commentaire 2*/
 if (isset($_POST['identifier'])) {
     if (isset($_POST['identifiant']) && isset($_POST['mdp'])) {
         $sRequeteSql = 'SELECT id, identifiant, mdp FROM utilisateur WHERE identifiant = ? AND mdp = ? LIMIT 1';

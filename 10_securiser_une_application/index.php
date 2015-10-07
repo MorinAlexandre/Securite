@@ -10,10 +10,11 @@ if ('identification' === $_GET['page']
 
     header('Location: index.php');
 }
-
+/* Commentaire */
 require 'include/connexion.php';
 ?>
 <!DOCTYPE html>
+
 <html lang="fr">
 	<head>
         <meta http-equiv="Content-Language" content="fr" />
